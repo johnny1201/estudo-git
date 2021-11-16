@@ -65,6 +65,13 @@ while jogador != 9 :
         [1] Papel
         [2] Tesoura
         [9] Encerrar''')
+print('---'*10)
+print('          Placar')
+print('''
+Vitória | Empate | Derrota
+  {}     |    {}   |   {}'''.format(vitoria,empates,derrota))
+print('---'*10)
+
 
     
     
