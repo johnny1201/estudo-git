@@ -1,12 +1,12 @@
 from random import randint
-from time import sleep
+from time import sleep 
 jogador = 3
 print('''Escolha sua jogada:
         [0] Pedra
         [1] Papel
         [2] Tesoura
         [9] Encerrar''')
-opcoes = ('Pedra', 'Papel', 'Tesoura')
+opcoes = (' ✊', ' 🖐️', ' ✌️')
 vitoria = 0
 derrota = 0
 empates = 0
