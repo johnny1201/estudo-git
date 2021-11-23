@@ -11,13 +11,13 @@ while True:
     if 2<= N <=10000:
         vetorstr = (input("insira a sequencia: ").split(' ')) 
         print('seu vetor é {}'.format(vetorstr))
-    while N != len(vetor):
-        N = int(input('Defina o numero de amostras: ')) 
-        vetorstr = (input("insira uma sequencia com o numero de amostras especificado: ").split(' ')) 
-        print('sua amostra é {}'.format(vetorstr))
-    for   vetornum in vetorstr:
-        vetor.append(int(vetornum)) 
-    print('amostra transformada em inteiro\n {}'.format(vetor))
+        while N != len(vetorstr):
+            N = int(input('Defina o numero de amostras: ')) 
+            vetorstr = (input("insira uma sequencia com o numero de amostras especificado: ").split(' ')) 
+            print('sua amostra é {}'.format(vetorstr))
+        for   vetornum in vetorstr:
+            vetor.append(int(vetornum)) 
+        print('amostra transformada em inteiro\n {}'.format(vetor))
     
 
 
