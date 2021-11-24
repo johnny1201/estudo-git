@@ -70,7 +70,8 @@ print('          Placar')
 print('''
 Vitória | Empate | Derrota
   {:<6}|  {:<6}|  {:<6}'''.format(vitoria,empates,derrota))
-print('---'*10)
+print('---'*10) 
+
 
 
     
